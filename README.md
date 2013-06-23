@@ -25,7 +25,7 @@ This setup using the excellent virtualenvwrapper to isolate the installed depend
         
     ```sh
     mkvirtualenv [name-of-your-project]
-    git clone https://github.com/jordn/heroku-django-s3 [name-of-your-project]
+    git clone https://github.com/wavrin/heroku-django-s3 [name-of-your-project]
     cd [name-of-your-project]
     ```
 2. Install all the dependencies (django, psycopg2, gunicorn, dj-database-url, boto and django-storages) with pip. These are specified in requirements.txt (if you edit this file to remove the version numbers it will install the latest versions available)
